@@ -20,7 +20,7 @@ int main() {
 
     // process and output
     if (user_wealth == "yes" && user_looking == "yes") {
-        std::cout << "\nYou are accepted to date my daughter.";
+        std::cout << "\nYou are accepted to date my grandchild.";
     } else if (user_wealth == "no" || user_looking == "no") {
         std::cout << "\nNot accepted, come back when you get rich.";
     } else {
@@ -28,4 +28,7 @@ int main() {
     }
     std::cout << "" << std::endl;
     std::cout << "\nThanks for checking.";
+
+    std::cout << "" << std::endl;
+    std::cout << "\nDone.";
 }
